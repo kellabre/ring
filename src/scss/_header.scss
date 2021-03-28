@@ -29,15 +29,12 @@
         &__address:hover {
             color: white;
         }
+        &-link {
+            color: #858585;
+            &:hover {
+                color: #fff;
+            }
+        }
     }
 
-    &__address-2 {
-        text-decoration: none;
-        color: gray;
-        font-family: sans-serif;
-    }
-
-    &__address-2:hover {
-        color: white;
-    }
 }
