@@ -1,0 +1,43 @@
+.header {
+    background: black;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        position: relative;
+        margin-right: 50px;
+
+        &__img {
+            width: 100px;
+        }
+    }
+
+    .nav {
+        width: 100%;
+        align-items: center;
+
+        &__address {
+            text-decoration: none;
+            color: gray;
+            text-transform: uppercase;
+            font-family: sans-serif;
+
+        }
+
+        &__address:hover {
+            color: white;
+        }
+    }
+
+    &__address-2 {
+        text-decoration: none;
+        color: gray;
+        font-family: sans-serif;
+    }
+
+    &__address-2:hover {
+        color: white;
+    }
+}
