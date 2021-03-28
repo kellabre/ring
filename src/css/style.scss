@@ -1,13 +1,68 @@
-*{
-    padding:0;
+* {
+    padding: 0;
     margin: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
-    
+
 
 @import "../scss/header.scss";
 @import "../scss/main";
+
+.conteiner {
+    background: url('../../123.jpeg') 0 0 /cover no-repeat;
+    background-size: cover;
+    padding: 200px 0 400px;
+}
+.conteiner-1 {
+    background: url('../../321.jpeg') 0 0 /cover no-repeat;
+    background-size: cover;
+    padding: 300px 0 300px;
+}
+.card {
+    text-align: center;
+    color: whitesmoke;
+    padding: 0 100px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.card a {
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+}
+.ttext {
+    margin-bottom: 50px;
+}
+.beta {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    color: whitesmoke;
+    padding: 0 100px;
+}
+
+.beta a {
+    color: whitesmoke;
+    width: 600px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: sans-serif;
+
+
+}
+
+.beta__text {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.beta__link:hover {
+    color: orange;
+}
